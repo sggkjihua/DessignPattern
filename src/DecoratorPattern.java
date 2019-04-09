@@ -40,8 +40,12 @@ class Coffee implements Beverage{
 }
 
 
-class Decorator implements Beverage {
+abstract class Decorator implements Beverage {
     private String desc = "I know nothing about the beverage, I am simply a decorator";
+    Beverage beverage;
+    public Decorator(Beverage beverage){
+        this.beverage = beverage;
+    }
     @Override
     public double getPrice() {
         return 0;
@@ -55,9 +59,8 @@ class Decorator implements Beverage {
 
 class Milk extends Decorator{
     private String desc = "Adding milk to beverage...";
-    private Beverage beverage;
     public Milk(Beverage beverage) {
-        this.beverage=beverage;
+        super(beverage);
     }
     @Override
     public double getPrice() {
@@ -72,9 +75,8 @@ class Milk extends Decorator{
 
 class Pearl extends Decorator{
     private String desc = "Adding Pearls to beverage...";
-    private Beverage beverage;
     public Pearl(Beverage beverage) {
-        this.beverage=beverage;
+        super(beverage);
     }
     @Override
     public double getPrice() {
