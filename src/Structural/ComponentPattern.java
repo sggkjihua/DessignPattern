@@ -1,3 +1,5 @@
+package Structural;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -29,9 +31,9 @@ public class ComponentPattern {
         while(it.hasNext()){
             Component component = it.next();
             if(component instanceof File){
-                System.out.print("File: ");
+                System.out.print("Structural.File: ");
             }else{
-                System.out.print("Folder: ");
+                System.out.print("Structural.Folder: ");
             }
             component.display();
         }

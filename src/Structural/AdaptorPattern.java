@@ -1,3 +1,5 @@
+package Structural;
+
 public class AdaptorPattern {
     public static void main(String[] args){
         // class实现接口，但是同样的功能已经有别的class能够实现了，就是接口名字不同而已，那么就额可以通过适配器模式进行拓展

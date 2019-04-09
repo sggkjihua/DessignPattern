@@ -1,3 +1,5 @@
+package Structural;
+
 public class DecoratorPattern {
     public static void main(String[] args){
         // 写一个Beverage的接口，然后让Decorator来实现这个接口

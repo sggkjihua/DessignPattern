@@ -1,3 +1,5 @@
+package Structural;
+
 public class BridgePattern {
     public static void main(String[] args){
         // 抽象类里面某个field可以是多种同类型的继承，实际上调用某个function的时候里面用的是这个field里面的方法

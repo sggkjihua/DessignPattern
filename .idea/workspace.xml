@@ -154,27 +154,27 @@
   </component>
   <component name="RunManager" selected="Application.DecoratorPattern">
     <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BridgePattern" />
+      <option name="MAIN_CLASS_NAME" value="Structural.BridgePattern" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
     <configuration name="ComponentPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComponentPattern" />
+      <option name="MAIN_CLASS_NAME" value="Structural.ComponentPattern" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
     <configuration name="DecoratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecoratorPattern" />
+      <option name="MAIN_CLASS_NAME" value="Structural.DecoratorPattern" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
     <configuration name="FlyWeightPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlyWeightPattern" />
+      <option name="MAIN_CLASS_NAME" value="Structural.FlyWeightPattern" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
     <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProxyPattern" />
+      <option name="MAIN_CLASS_NAME" value="Structural.ProxyPattern" />
       <module name="DesignPattern" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>

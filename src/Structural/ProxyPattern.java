@@ -1,3 +1,5 @@
+package Structural;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -15,7 +17,7 @@ public class ProxyPattern {
         // 代理模式可以屏蔽用户真正请求的对象，是用户程序和正在的对象解耦
         // 使用代理来担当那些创建耗时的对象的替身
 
-        //Proxy proxy = new Proxy();
+        //Structural.Proxy proxy = new Structural.Proxy();
         //proxy.method(55);
 
         // 一个用户不想或者不能够直接引用一个对象（或者设计者不希望用户直接访问该对象
